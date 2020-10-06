@@ -1,0 +1,10 @@
+<div class="grey"><h1>Health Resources</h1></div>
+<% @healthresources.each do |healthresource| %>
+  <div class="healthresource section">
+    <h2><%= link_to healthresource.title, healthresource.url %></h2>
+    <p><%= healthresource.description %></p>
+  </div>
+<% end %>
+<p>
+	<div class="grey"><%= link_to "Add a health resource", new_healthresource_path %></div>
+</p>
