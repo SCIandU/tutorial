@@ -168,7 +168,7 @@ These are called Rails validations and there’s a list of them here.
 
 13. Adding some Health Resources
 
-At the moment, there aren’t any health resources on our site. Our spreadsheet is empty. So let’s go to our new health resource page first. Go to http://0.0.0.0:3000/healthresources/new or http://localhost:3000/healthresources/new and you should see a blank page.
+At the moment, there aren’t any health resources on our site. Our spreadsheet is empty. So let’s go to our new health resource page first. Go to http://0.0.0.0:3000/healthresources/new and you should see a blank page.
 
 We want this page to allow us to add health resources to our database To do this we will go to our health resource controller. Using our code editor, go to the app folder, then the controllers folder, and open healthresources_controller.rb.
 
